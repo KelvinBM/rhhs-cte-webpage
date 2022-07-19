@@ -1,6 +1,7 @@
 @import url('https://font.google.com/css2?family=Lato&display=swap');
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Nunito:wght@200;300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -15,4 +16,18 @@
     justify-content:center;
     font-size: 3rem;
 
+}
+
+#homeH3, #homeH2 {
+    font-size: 30px;
+    padding-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.list1 {
+    margin-left: 65px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    
 }
