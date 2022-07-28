@@ -6,7 +6,7 @@ import Contact from './Components/Pages/Contact'
 import Sepacademy from './Components/Pages/Sep-academy';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-
+import SkillsRequired from './Components/Pages/skills-required';
 
 // This is an App function which...
 function App() {
@@ -20,6 +20,8 @@ function App() {
         <Route path='/sep-academy' component={Sepacademy} />
         <Route path='/student-achievement' component={Achievement} />
         <Route path='/contact-us' component={Contact} />
+        <Route path='/skills' component={SkillsRequired} />
+        
       </Switch>
     </Router>
 // Each of those elements which aren't really HTML are actually components of their own, 

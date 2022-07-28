@@ -28,7 +28,7 @@ function Sepacademy() {
 
         <Card
             imageUrl='https://i.ytimg.com/vi/2_rXHox_J0I/maxresdefault.jpg' 
-            title= '11th grade: AP Computer Science Principles'
+            title= '11th grade: Amazon cloud computing'
             body='Students will prepare to take AP Computer Science Principles using ProjectSTEMs curriculum, in partnership with Amazon.'
             />
 

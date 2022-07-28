@@ -22,9 +22,13 @@ const Navbartop = () => {
           <NavLink to='/student-achievement' activeStyle>
             Student Achievement
           </NavLink>
+          <NavLink to='/skills' activeStyle>
+            Skills Required
+          </NavLink>
           <NavLink to='/contact-us' activeStyle>
             Contact Us
           </NavLink>
+
         </NavMenu>
       </Nav>
     </>
