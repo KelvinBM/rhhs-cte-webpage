@@ -31,9 +31,11 @@
 }
 #paragraphs-1{
     margin-right: 500px;
+    background-color: lightgray;
 }
 #paragraphs-2{
     margin-left: 600px;
+    background-color: lightgray;
 }
 #softSkills{
     border-style: outset;
