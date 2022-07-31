@@ -370,6 +370,48 @@ function SkillsRequired() {
                     </div>
                 </div>
             </div>
+            <footer>
+                <div id= "sources-div">
+                    <h5 id="sources-headers">SOFT AND HARD SKILLS SOURCES</h5>
+                    <ul id= "sources">
+                        <li>
+                            <a id="soft-v-hard-source" href= "https://www.thebalancecareers.com/hard-skills-vs-soft-skills-2063780#toc-what-are-soft-skills">
+                                <u>Visit www.thebalancecareers</u>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.thebalancecareers.com/what-are-hard-skills-2060829">
+                                <u> Visit thebalancecareers.com </u> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.indeed.com/career-advice/career-development/hard-skills">   
+                                <u> Visit www.indeed.com  </u>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/articles/what-are-technical-skills">
+                                <u>  Visit www.coursera.com  </u> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.wgu.edu/blog/computer-science-skills-resume1911.html#close"> 
+                                <u>  Visit www.wgu.edu  </u> 
+                            </a>  
+                        </li>
+                        <li>
+                            <a href="https://www.investopedia.com/terms/t/technical-job-skills.asp"> 
+                                <u>  Visit www.inestopedia.com  </u>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/pulse/soft-skills-vs-technical-which-more-important-getting-dipesh-gurjar">
+                                <u>  Visit www.linkedin.com  </u>  
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
         </div>
     );
 }

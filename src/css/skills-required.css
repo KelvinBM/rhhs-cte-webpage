@@ -111,3 +111,21 @@
     margin-right: 35px;
     margin-left: 85px;
 }
+#sources-headers{
+    margin-left: 125px;
+    display: inline;
+    font-weight: 700;
+}
+#sources{
+    display: flex;
+    margin-left: 275px;
+    margin-right: 100px;
+    font-size: 14px;
+    padding-top: 15px;
+
+}
+#sources-div{
+    background-color: rgb(107, 107, 107);
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
