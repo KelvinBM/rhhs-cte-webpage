@@ -1,11 +1,14 @@
-@import url('https://font.google.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Nunito:wght@200;300&family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Edu+SA+Beginner&family=Ibarra+Real+Nova:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    
 
 }
 
@@ -17,17 +20,28 @@
     font-size: 3rem;
 
 }
-
-#homeH3, #homeH2 {
-    font-size: 30px;
-    padding-left: 15px;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+#homeH3, #homeH2,#homeH4{
+    font-size: 26px;
+    color: white;
+    padding: 10px;
+    margin: 20px; 
+    font-family: 'Bad Script', cursive;
+    font-weight: 900 ;    
+   
+}
+#video{
+height: 500px;
+width: 1100px;
+margin-left: 230px;
+}
+#body{
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 25, 25) ;
+    
 }
 
-.list1 {
-    margin-left: 65px;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-    
+.list{
+    margin: 30px;
+    margin-left: 150px;
 }
