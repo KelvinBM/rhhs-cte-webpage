@@ -38,9 +38,9 @@ const Contact = ({title,imageUrl,body}) => {
       <ul className="cards"class ="gradedivide">
         <Teacherinfo
           imageUrl='Image for each teacher'
-          title ='Mr. Joseph'
-          body='Teacher for Exploring Computer Science'
-          email ='?'
+          title ='Ms. Pak'
+          body='Teacher for TEALS Intro to Computer Science'
+          email ='Email: spak@richmondhillhs.org'
           />
 
       </ul>
@@ -50,7 +50,7 @@ const Contact = ({title,imageUrl,body}) => {
           imageUrl='Image for each teacher'
           title ='Ms. Pak'
           body='Teacher for TEALS Intro to Computer Science'
-          email ='?'
+          email ='spak@richmondhillhs.org'
           />
       </ul>
       </div>
