@@ -50,7 +50,7 @@ const Contact = ({title,imageUrl,body}) => {
           imageUrl='Image for each teacher'
           title ='Ms. Pak'
           body='Teacher for TEALS Intro to Computer Science'
-          email ='spak@richmondhillhs.org'
+          email ='Email: spak@richmondhillhs.org'
           />
       </ul>
       </div>
