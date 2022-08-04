@@ -13,21 +13,21 @@ const Navbartop = () => {
           <img src={require('../../images/header_logo.png')} width="90" height="90" alt='logo' />
         </NavLink>
         <NavMenu>
-        <NavLink to='/home' activeStyle>
-          Home
-        </NavLink>
-          <NavLink to='/sep-academy' activeStyle>
-            SEP Academy
-          </NavLink>
-          <NavLink to='/student-achievement' activeStyle>
-            Student Achievement
-          </NavLink>
-          <NavLink to='/skills' activeStyle>
-            Skills Required
-          </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-            Contact Us
-          </NavLink>
+            <NavLink to='/home' activeStyle>
+                Home
+            </NavLink>
+            <NavLink to='/sep-academy' activeStyle>
+                SEP Academy
+            </NavLink>
+            <NavLink to='/student-achievement' activeStyle>
+                Student Achievement
+            </NavLink>
+            <NavLink to='/skills-required' activeStyle>
+                Skills Required
+            </NavLink>
+            <NavLink to='/contact-us' activeStyle>
+                Contact Us
+            </NavLink>
 
         </NavMenu>
       </Nav>

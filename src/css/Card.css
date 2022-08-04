@@ -17,18 +17,18 @@
 
 }
 #p3{
-text-align: center;
+    text-align: center;
 }
 .card-container{
-width: 1300px;
-overflow: hidden;
-box-shadow: 0px 0px 15px -5px;
-transition: 0.3s;
-animation: ease-in;
-margin: 0.5rem;
-margin-top: 1.8rem;
-color: maroon;
-font-size: 1.5em;
+    width: 1300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 0.5rem;
+    margin-top: 1.8rem;
+    color: maroon;
+    font-size: 1.5em;
 
 }
 
@@ -109,7 +109,7 @@ h3,p{
     margin-left: 50px;
     margin-right:50px;
     font-family: 'Lobster', cursive;
-font-family: 'Merriweather', serif;    
+    font-family: 'Merriweather', serif;    
 }
 
 .card-title{
@@ -143,7 +143,7 @@ a{
     
 }
 #h1sep{
-    padding-left: 450px;
+    text-align: center;
 }
 #h2sep{
     padding-left: 420px;
@@ -152,4 +152,9 @@ a{
     float:left;
     padding:16px;
     text-align: center;
+}
+.card{
+    display: inline-flex;
+    margin-right: 2rem;
+    margin-left: 3rem;
 }

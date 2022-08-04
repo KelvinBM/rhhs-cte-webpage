@@ -1,26 +1,48 @@
 
 import React from 'react';
-import Acard from './Acard'
+import Acard from './Acard';
+import "./../../css/Card.css";
 
 
 const Achievement = () => {
   return (
-     <div className="about-sa">
-            <h1>Welcome to the Student Achievement Page</h1>
-            <h4>Here you will find various projects that students of the RHHS Software Engineering program have completed.</h4>
-             <br></br>
-    <div className="acard-container">
-        <Acard 
-        title='Fashion Game Scratch Project!'
-        description='Within the first year of RHHS, students explore Scratch. With Scratch, you can program your own interactive stories, games, animations, and share your creations with others in the online community.'
-        projectlink='https://scratch.mit.edu/projects/149206977'/>
+        <div className="about-sa">
+      <h1>Welcome to the Student Achievement Page</h1>
+      <h4>
+        Here you will find various projects that students of the RHHS Software
+        Engineering program have completed.
+      </h4>
+      <br></br>
+      <div className="acard-container">
+        <Acard
+          id="achievement-card"
+          title="Fashion Game Scratch Project!"
+          description="Within the first year of RHHS, students explore Scratch. With Scratch, you can program your own interactive stories, games, animations, and share your creations with others in the online community."
+          projectlink="https://scratch.mit.edu/projects/149206977"
+        />
 
-        <Acard 
-        title='Paint Box!'
-        description=' With Scratch, you can program your own interactive games!'
-        projectlink='https://scratch.mit.edu/projects/181253578'/>
+        <Acard
+          id="achievement-card"
+          title="Paint Box!"
+          description=" With Scratch, you can program your own interactive games!"
+          projectlink="https://scratch.mit.edu/projects/181253578"
+        />
+
+        <Acard
+          id="achievement-card"
+          title="Self Webpage"
+          description="This is a profile website which is one of the website you will learn how to code."
+          projectlink="https://arnab-bio.glitch.me/"
+        />
+
+        <Acard
+          id="achievement-card"
+          title="Pizza Website"
+          description="In this project we learn how to make a html website into a react website."
+          projectlink="https://github.com/Uriel0909/Pizza-website"
+        ></Acard>
+      </div>
     </div>
-</div>
   )
   }
 export default Achievement;

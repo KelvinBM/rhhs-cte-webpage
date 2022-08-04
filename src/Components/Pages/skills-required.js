@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../css/skills-required.css';
 
+
 function SkillsRequired() {
     return(
         <div className= "body">
@@ -85,21 +86,21 @@ function SkillsRequired() {
                 </div>
             </div>
             <div className="soft-skill-cards" id= "card-1">
-                <div className="card">
+                <div className="card" id="active-listening">
                     <img
                         src="https://bevynkhanal.files.wordpress.com/2019/10/active-listening.jpg"
                         className="card-img-top"
                         alt="Active listening"
                     />
-                    <div className="card-zbody">
+                    <div className="card-body">
                         <p className="card-text">
                             <font size="3">
-                            <div className="shadow p-3 mb-5 bg-body rounded">
-                                <b>Active Listening - </b>Rather than giving someone a fraction
-                                of your attention, active listening is making a conscious effort
-                                to hear, understand, and retain information that's being relayed
-                                to you. It involves more than listening to the words they say.
-                            </div>
+                                <div className="shadow p-3 mb-5 bg-body rounded">
+                                    <b>Active Listening - </b>Rather than giving someone a fraction
+                                    of your attention, active listening is making a conscious effort
+                                    to hear, understand, and retain information that's being relayed
+                                    to you. It involves more than listening to the words they say.
+                                </div>
                             </font>
                         </p>
                     </div>
@@ -133,7 +134,7 @@ function SkillsRequired() {
                     />
                     <div className="card-body">
                         <p className="card-text"></p>
-                        <div className="shadow p-3 mb-5 bg-body rounded" id="critical-thinking">
+                        <div className="shadow p-3 mb-5 bg-body rounded">
                             <b>Critical Thinking - </b>Using creativity and foresight to achieve
                             tasks and reach goals in the most efficient ways. Mastering critical
                             thinking often requires a slowed-down pace, where an employee
@@ -152,7 +153,7 @@ function SkillsRequired() {
                     />
                     <div className="card-body">
                         <p className="card-text"></p>
-                        <div className="shadow p-3 mb-5 bg-body rounded" id="teamwork">
+                        <div className="shadow p-3 mb-5 bg-body rounded">
                             <b>Teamwork - </b>involves many other interpersonal skills like
                             communication, active listening, flexibility and responsibility.
                             Those who are good team players are often given important tasks in
@@ -189,7 +190,7 @@ function SkillsRequired() {
                         />
                     <div className="card-body" >
                         <p className="card-text"></p>
-                        <div className="shadow p-3 mb-5 bg-body rounded" >
+                        <div className="shadow p-3 mb-5 bg-body rounded">
                             <font size="3">
                                 <b>Personal Accountability - </b> To acknowledge your mistakes, accept 
                                 responsibility for them and to figure out how to fix them.
@@ -253,7 +254,7 @@ function SkillsRequired() {
             <div className="hard-skill-cards"  id= "card-2">
                 <div className="card">
                     <img
-                        src="https://media-exp1.licdn.com/dms/image/C5612AQHMIRehTvRcHg/article-cover_image-shrink_600_2000/0/1520150075767?e=1659571200&v=beta&t=g2fGi_-J5bRH-MoF6exdGvTwl3gUTlAMrSi6hknapvY"
+                        src="https://media-exp1.licdn.com/dms/image/C5612AQHMIRehTvRcHg/article-cover_image-shrink_600_2000/0/1520150075767?e=1663200000&v=beta&t=O2Ou9uJEz8-R0OXA_YMLja0M2Y8g9TfjQWuQkDZFohw"
                         className="card-img-top"
                         alt="Technical writing"
                     />

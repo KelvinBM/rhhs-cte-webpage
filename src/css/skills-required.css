@@ -90,36 +90,32 @@
 
 
 .hard-skill-cards{
-    width: 18rem;
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 10px;
+    width: 22rem;
+    display: inline-flex;
     margin-bottom: 15px;
 }
 .soft-skill-cards{
-    width: 18rem;
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 10px;
+    width: 23rem;
+    display: inline-flex;
     margin-bottom: 15px;
 }
 #card-1{
-    margin-right: 30px;
-    margin-left: 65px;
+    margin-right: 0px;
+    margin-left: 25px;
 }
 #card-2{
     margin-right: 3px;
-    margin-left: 85px;
+    margin-left: 35px;
 }
 #sources-headers{
-    margin-left: 125px;
+    margin-left: 20px;
     display: inline;
     font-weight: 700;
 }
 #sources{
     display: flex;
-    margin-left: 265px;
-    margin-right: 100px;
+    margin-left: 15px;
+    margin-right: 35px;
     font-size: 14px;
     padding-top: 15px;
     padding-right: 10px;

@@ -20,7 +20,7 @@ function App() {
         <Route path='/sep-academy' component={Sepacademy} />
         <Route path='/student-achievement' component={Achievement} />
         <Route path='/contact-us' component={Contact} />
-        <Route path='/skills' component={SkillsRequired} />
+        <Route path='/skills-required' component={SkillsRequired} />
         
       </Switch>
     </Router>
